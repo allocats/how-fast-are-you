@@ -19,9 +19,7 @@ int main(int argc, const char* argv[]) {
             "src/main.c",
         ),
         BUILD_FLAGS(
-            "-O3",
-            "-flto",
-            "-march=native"
+            "-O0",
         ),
         .compiler = "clang",
         .build_dir = "build/",
