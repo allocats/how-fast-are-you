@@ -1,0 +1,6 @@
+build/
+vgcore.*
+core.*
+callgrind.*
+cnb
+*.o
